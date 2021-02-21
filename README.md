@@ -1,7 +1,7 @@
 # Mend Together
 A Place Where You Can Find People Who Shares The Same Music Tastes As You 💫
 ---
-Mend Uses ["Spotify API"]('https://developer.spotify.com') For Getting Your Music Tastes 🎶!
+Mend Uses [Spotify API]('https://developer.spotify.com') For Getting Your Music Tastes 🎶!
 ___
 ***To Get Started Use:***
 ```
