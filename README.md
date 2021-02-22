@@ -11,7 +11,7 @@ This Repository Contains The Backend For Mend If You Wanna Checkout Frontend the
 ###
 ___
 # Technologies Used 💻
-1. [Node js](https://nodejs.org) (Express Framework) 
+1. [Node js](https://nodejs.org) (Express Framework)
 2. [Mongo DB](https://mongodb.com) (Mongoose Framework)
 ___
 ***To Get Started Use:***
@@ -19,9 +19,9 @@ ___
 npm install
 npm run devStart
 ```
-It Will Start A Local Server On Your Network In Port 3000 
+It Will Start A Local Server On Your Network In Port 3000
 ___
-## Contributers 🤖  
+## Contributers 🤖
 |Name| Github|
 |----|-------|
 |Armaan| [armaangupta9304](https://github.com/armaangupta9304)|
