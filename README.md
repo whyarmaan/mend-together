@@ -13,6 +13,7 @@ ___
 # Technologies Used 💻
 1. [Node js](https://nodejs.org) (Express Framework)
 2. [Mongo DB](https://mongodb.com) (Mongoose Framework)
+3. [Typescript](https://www.typescriptlang.org/) (Typescript)
 ___
 ***To Get Started Use:***
 ```
