@@ -2,7 +2,6 @@ import passport from 'passport';
 import {NextFunction, Request, Response} from 'express';
 
 export const isAuthRequired = (req: Request, res: Response, next: NextFunction): void | Response => {
-    console.log('AM IN');
     return req.user ? next() : res.status(401).json({
         message: 'UnAuthorized!'
     });
