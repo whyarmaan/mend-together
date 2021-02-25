@@ -18,7 +18,7 @@ ___
 ***To Get Started Use:***
 ```
 npm install
-npm run devStart
+npm run dev
 ```
 It Will Start A Local Server On Your Network In Port 3000
 ___
