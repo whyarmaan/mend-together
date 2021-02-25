@@ -1,9 +1,6 @@
 const Router = require("express").Router()
+const AuthRouter = require("./Auth.api");
 
-Router.get("/", (req, res, next) => {
-    res.json({
-        message: `🚀 Api Working Start Editing ${__dirname} `
-    })
-})
+Router.use("/auth", AuthRouter);
 
 module.exports = Router

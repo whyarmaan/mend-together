@@ -2,15 +2,24 @@
 const express = require("express");
 const mongoose = require("mongoose");
 const dotenv = require("dotenv");
+dotenv.config();
+require("./configurations")
 const cors = require("cors");
 const routes = require("./routes/routes.api");
 const colors = require("colors")
-dotenv.config();
+const passport = require("passport");
+const session = require("cookie-session");
 
 // Constants
 const app = express();
 app.use(express.json());
 app.use(cors());
+app.use(session({
+    keys: ['test-key', 'test-key-2'],
+    name: 'session'
+}))
+app.use(passport.initialize());
+app.use(passport.session());
 app.use(routes);
 
 // Listening
